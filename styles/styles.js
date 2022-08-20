@@ -46,6 +46,13 @@ export const styles = StyleSheet.create({
     alignItems: 'center', 
     justifyContent: 'space-between'
   },
+  separator:{
+    borderBottomWidth: 1,
+    borderBottomColor: 'lightgrey',    
+    marginTop:20,
+    marginBottom: 40
+
+  },
   imgSize:{
     alignSelf: 'center',
     borderRadius: 2,
