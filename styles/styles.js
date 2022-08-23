@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
-  heading:{
-    textAlign:'center',
+  heading: {
+    textAlign: 'center',
     textTransform: 'uppercase',
     fontSize: 17,
     color: 'darkslateblue'
@@ -17,8 +17,11 @@ export const styles = StyleSheet.create({
   mt2: {
     marginTop: 20
   },
-  mb:{
-    marginBottom:5
+  mt3: {
+    marginTop: 30
+  },
+  mb: {
+    marginBottom: 5
   },
   mb1: {
     marginBottom: 10
@@ -30,7 +33,7 @@ export const styles = StyleSheet.create({
     marginBottom: 30
   },
   pad: {
-    paddingHorizontal:15
+    paddingHorizontal: 15
   },
   tabIcon: {
     width: 40,
@@ -42,23 +45,29 @@ export const styles = StyleSheet.create({
     color: 'darkslategrey'
   },
   container: {
-    flex: 1, 
-    alignItems: 'center', 
+    flex: 1,
+    alignItems: 'center',
     justifyContent: 'space-between'
   },
-  separator:{
+  singleContainer: {
+    marginTop: 5,
+    marginBottom: 5,
+    alignItems: 'center',
+    justifyContent: 'flex-end'
+  },
+  separator: {
     borderBottomWidth: 1,
-    borderBottomColor: 'lightgrey',    
-    marginTop:20,
+    borderBottomColor: 'lightgrey',
+    marginTop: 20,
     marginBottom: 40
 
   },
-  imgSize:{
+  imgSize: {
     alignSelf: 'center',
     borderRadius: 2,
-    width:'90%',
+    width: '90%',
     height: 230
-    
+
   }
 });
 
