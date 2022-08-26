@@ -20,6 +20,9 @@ export const styles = StyleSheet.create({
   mt3: {
     marginTop: 30
   },
+  mt4: {
+    marginTop: 40
+  },
   mb: {
     marginBottom: 5
   },
